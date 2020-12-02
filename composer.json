@@ -1,0 +1,22 @@
+{
+    "name": "ionafan2/selling-partner-api-php-sandbox",
+    "authors": [
+        {
+            "name": "Pavlo Cherniavskyi"
+        }
+    ],
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SandboxApp\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.2",
+        "aws/aws-sdk-php": "^3.166",
+        "symfony/dotenv": "^5.2"
+    }
+}
